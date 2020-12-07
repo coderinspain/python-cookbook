@@ -1,0 +1,7 @@
+2020-12-04 11:36:11,060 - root -DEBUG -test
+2020-12-04 11:39:42,954 - root - DEBUG - test
+2020-12-04 11:39:42,986 - root - DEBUG - debug message here
+2020-12-04 11:39:42,986 - root - INFO - info message here
+2020-12-04 11:39:42,990 - root - WARNING - warning message here
+2020-12-04 11:39:43,010 - root - ERROR - error message here
+2020-12-04 11:39:43,010 - root - CRITICAL - debug message here
