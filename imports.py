@@ -1,13 +1,5 @@
 #Imports
 
-#Lets make our code usable to other scripts
-#This allows us to structure our code and simplify things
-#We are really just scratching the surface of the import symtem
-
-#Create the file
-#Go ahead a look at mycode.py
-
-#Import as
 
 import mycode as person
 
