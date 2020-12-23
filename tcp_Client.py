@@ -1,4 +1,24 @@
 #TCP Client
+"""
+TCP (Transmission Control Protocol) - is a standard that defines how to establish and 
+maitain a network conversation through which application programs can exchange data. TCP works the Internet Protocol
+(IP), which defines how computers send packets of data to each other. Uses a 3 way hand shake to
+c > syn
+s < syn/ack
+c > ack
+
+Server - listens for incomming connections via TCP 
+
+Client - connects to the server via TCP 
+
+Network - A network consists of two or more computers that are linked
+
+IP - The number that represents the machine on the network (IP4 vs IP6)
+
+Port - A communication end point
+
+Protocol - Defined means of application communications
+"""
 
 #Imports
 import logging
@@ -28,9 +48,9 @@ def download(server, port):
     logging.info(f'Data: {data}')
 
 
+#Main function
 def main():
-    download('voidrealms.com', 80)
-
+    download('voidrealms.com', 7346)
 
 if __name__ == "__main__":
     main()

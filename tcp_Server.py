@@ -2,7 +2,7 @@
 
 
 import logging
-import  socket
+import socket
 
 logging.basicConfig(format='%(levelname)s - %(asctime)s.%(msecs)03d: %(message)s', datefmt='%H:%M:%S',level=logging.DEBUG)
 
@@ -29,7 +29,6 @@ def server(ip, port):
     
     logging.info('Closing the server')
     s.close()
-
 
 
 def main():

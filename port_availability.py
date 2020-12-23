@@ -53,12 +53,12 @@ def check_range(ip, scope):
 #See it works
 def main():
     #Test one port
-    port = 3000
+    port = 2594
     p = check_port('localhost', port, 2.0)
     logging.info(f'Port {port} usable: {p}')
 
     #Test a range of ports
-    ports = check_range('localhost', range(3006, 3500))
+    ports = check_range('localhost', range(2607, 4096))
     for k, v in ports.items():
         logging.info(f'Port {k} usable {v}')
 
